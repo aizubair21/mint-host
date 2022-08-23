@@ -19,7 +19,7 @@
 <body>
     <section id="mint_home_banner">
         <div class="container">
-            <div class="d-flex justify-content-between align-items-center banner_div">
+            <div class="row banner_div">
                 <div class="col-lg-7 ">
                     <div class="mint_home_banner_content">
                         <div class="mint_home_banner_content_desc">
@@ -32,7 +32,7 @@
                         </div>
 
                         <div class="mint_home_banner_domain_search">
-                            <form action="#" method="post" class="d-flex align-items-center">
+                            <form action="#" method="post" class="d-flex justify-content-between align-items-center ">
                                 <input type="search" name="search" id="d-search" placeholder="search your domain....">
                                 <button><i class="fa-solid fa-magnifying-glass"></i></button>
                             </form>

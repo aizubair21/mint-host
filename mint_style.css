@@ -47,18 +47,17 @@ html {
 
 .h1,
 h1 {
-    font-size: 46px;
+    font-size: 40px;
     font-weight: 900;
-    line-height: 65px;
-    margin: 0 0 12px
+    margin: 0 0 12px;
 }
 
 @media (max-width:1231px) {
 
     .h1,
     h1 {
-        font-size: 46px;
-        line-height: 65px
+        font-size: 40px;
+        line-height: 35px
     }
 }
 
@@ -66,17 +65,17 @@ h1 {
 
     .h1,
     h1 {
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 900;
         line-height: 35px
     }
 }
 
-@media (max-width:58px) {
+@media (max-width:580px) {
 
     .h1,
     h1 {
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 900;
         line-height: 35px
     }
@@ -94,9 +93,8 @@ h2 {
 
     .h2,
     h2 {
-        font-size: 40px;
         font-weight: 900;
-        line-height: 52px
+        line-height: 32px
     }
 }
 
@@ -291,7 +289,8 @@ h6 {
 }
 
 #mint_home_banner .banner_div .mint_home_banner_content {
-    padding: 20px 0px;
+    width: 100%;
+    ;
 }
 
 #mint_home_banner .banner_div .mint_home_banner_content .mint-section-title {
@@ -304,15 +303,16 @@ h6 {
     border: 1px solid var(--mint-light);
     overflow: hidden;
     margin-top: 35px;
+    width: 100%;
 }
 
 #mint_home_banner input {
     border: none;
     outline: none;
-    padding: 15px 25px;
+    padding: 10px 25px;
     background-color: transparent;
     color: var(--mint-light);
-    font-size: 20px;
+    width: 100%;
 }
 
 #mint_home_banner .fa-magnifying-glass,
@@ -320,11 +320,11 @@ h6 {
     border: none;
     outline: none;
     background-color: transparent;
-    padding: 10px 25px;
+    padding: 10px 35px;
     border-radius: 25px;
-    color: var(--mint-white);
+    color: var(--mint-dark);
     font-size: 25px;
-    background-color: var(--mint-blue);
+    background-color: var(--mint-light);
 }
 
 #mint_home_banner button {
